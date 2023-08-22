@@ -1,27 +1,61 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src=".github/assets/hero-illustration.svg" alt="A developer siting in front of a computer" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Boilerplate: Vite + React + Styled-Components
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a [React](https://reactjs.org/) boilerplate using [Vite Builder](https://vitejs.dev/).
 
-## Expanding the ESLint configuration
+## What is inside?
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Eslint](https://eslint.org/)
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+Make a copy:
+
+```
+npx degit DanielFariias/simple-boilerplate-react-tite-styled-components my-project
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Enter the new created folder, initiate a git repository and install the dependencies:
+
+```
+cd my-project
+git init
+yarn install
+```
+
+### Development
+
+Run the development server:
+
+```
+yarn dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the page.
+
+### Production
+
+If you like to try the production build, run:
+
+```
+yarn build
+```
+
+And then:
+
+```
+yarn preview
+```
+
+---
+
+Made with ♥️ by Daniel Farias
