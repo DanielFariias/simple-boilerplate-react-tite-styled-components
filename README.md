@@ -1,7 +1,3 @@
-<p align="center">
-  <img src=".github/assets/hero-illustration.svg" alt="A developer siting in front of a computer" />
-</p>
-
 # Boilerplate: Vite + React + Styled-Components
 
 ---
